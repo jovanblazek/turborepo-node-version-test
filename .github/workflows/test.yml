@@ -2,6 +2,7 @@
 name: Pnpm caching test
 
 on:
+  pull_request:
   push:
     branches:
       - main
